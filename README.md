@@ -1,28 +1,73 @@
-# Heart Disease Prediction Using Decision Trees and Random Forests
+# ❤️ Heart Disease Prediction
 
-## Objective  
-Build classification models using Decision Trees and Random Forests to predict the presence of heart disease, analyze model performance, and interpret feature importance.
+This project focuses on predicting the presence of heart disease using machine learning techniques.  
+The model is trained on a structured healthcare dataset and aims to assist in early detection of heart-related risks.
 
-## Tools & Libraries  
+---
+
+## 📌 Project Overview
+
+Heart disease is one of the leading causes of death worldwide. Early prediction can help in timely medical intervention.  
+In this project, a machine learning model is developed to classify whether a person is likely to have heart disease based on clinical parameters.
+
+---
+
+## 📊 Dataset Information
+
+- **File name:** `heart.csv`
+- **Type:** Structured tabular dataset
+- **Target column:** `target`
+  - `1` → Presence of heart disease  
+  - `0` → No heart disease
+
+### Features include:
+- Age
+- Sex
+- Chest pain type
+- Resting blood pressure
+- Cholesterol level
+- Fasting blood sugar
+- Resting ECG results
+- Maximum heart rate achieved
+- Exercise-induced angina
+- Oldpeak (ST depression)
+- Slope of ST segment
+- Number of major vessels
+- Thalassemia
+
+---
+
+## ⚙️ Technologies Used
+
 - Python  
+- Jupyter Notebook  
+- NumPy  
 - Pandas  
+- Matplotlib / Seaborn  
 - Scikit-learn  
-- Matplotlib  
 
-## Summary of Steps  
-- Loaded and explored the Heart Disease dataset, checked for missing values  
-- Split dataset into features and target variable  
-- Divided data into training (70%) and testing (30%) sets  
-- Trained a Decision Tree Classifier and evaluated its accuracy  
-- Visualized the trained Decision Tree structure  
-- Trained a Random Forest Classifier and compared its accuracy with the Decision Tree  
-- Interpreted feature importance from the Random Forest model  
-- Performed 5-fold cross-validation to validate model robustness  
+---
 
-## Conclusion  
-The project successfully applied tree-based classifiers for heart disease prediction, with the Random Forest model outperforming the Decision Tree in accuracy. Feature importance analysis provided insights on influential clinical parameters. Cross-validation confirmed model stability across different data splits.
+## 🧠 Machine Learning Workflow
 
-## Project Files  
-- `heart.csv` - Raw heart disease dataset  
-- `heart_disease_prediction.ipynb` - Code for data processing, modeling, evaluation, and visualization  
-- `README.md` - Project overview and summary  
+1. Data loading and inspection  
+2. Data cleaning and preprocessing  
+3. Exploratory Data Analysis (EDA)  
+4. Feature selection and scaling  
+5. Model training  
+6. Model evaluation  
+7. Prediction and results analysis  
+
+---
+
+## 📈 Model Performance
+
+The model is evaluated using:
+- Accuracy score  
+- Confusion matrix  
+- Classification report  
+
+These metrics help measure how well the model predicts heart disease.
+
+---
+
